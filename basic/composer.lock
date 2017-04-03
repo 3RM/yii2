@@ -368,12 +368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "075016d1f74b16616161853af879557f610410a7"
+                "reference": "fee0bbb5f9b43f1460b35485f9b2845bfd4a111c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/075016d1f74b16616161853af879557f610410a7",
-                "reference": "075016d1f74b16616161853af879557f610410a7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fee0bbb5f9b43f1460b35485f9b2845bfd4a111c",
+                "reference": "fee0bbb5f9b43f1460b35485f9b2845bfd4a111c",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-16T22:59:11+00:00"
+            "time": "2017-03-22T15:28:33+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -2387,12 +2387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d4d7544f5a267aca6b79f0068ccc2bd07abc65a2"
+                "reference": "60d1b5e8acc1526a8c4c10aed67c93b85421bcb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d4d7544f5a267aca6b79f0068ccc2bd07abc65a2",
-                "reference": "d4d7544f5a267aca6b79f0068ccc2bd07abc65a2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/60d1b5e8acc1526a8c4c10aed67c93b85421bcb6",
+                "reference": "60d1b5e8acc1526a8c4c10aed67c93b85421bcb6",
                 "shasum": ""
             },
             "require": {
@@ -2447,7 +2447,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20T10:06:58+00:00"
+            "time": "2017-03-22T12:19:17+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -2620,12 +2620,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "cda8f2221699713cdc87cb93909b53512c6a99ad"
+                "reference": "6813d5fde9b4263e3ba968f654d4913733e0996c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/cda8f2221699713cdc87cb93909b53512c6a99ad",
-                "reference": "cda8f2221699713cdc87cb93909b53512c6a99ad",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/6813d5fde9b4263e3ba968f654d4913733e0996c",
+                "reference": "6813d5fde9b4263e3ba968f654d4913733e0996c",
                 "shasum": ""
             },
             "require": {
@@ -2675,7 +2675,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-17T13:55:48+00:00"
+            "time": "2017-03-21T21:44:47+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2791,12 +2791,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "c8471462f8f84082f3c8f52124a9f929fb9118ba"
+                "reference": "7b3437d363f41231ca5e351984cda5e8178f6ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c8471462f8f84082f3c8f52124a9f929fb9118ba",
-                "reference": "c8471462f8f84082f3c8f52124a9f929fb9118ba",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7b3437d363f41231ca5e351984cda5e8178f6ff6",
+                "reference": "7b3437d363f41231ca5e351984cda5e8178f6ff6",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20T13:59:57+00:00"
+            "time": "2017-03-22T10:47:48+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -2896,12 +2896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "9dbf5afaa6bb73d1fc6b3bd8e5b30af3849fdae1"
+                "reference": "6065b9784078881ff7b0301004342d210fec77b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9dbf5afaa6bb73d1fc6b3bd8e5b30af3849fdae1",
-                "reference": "9dbf5afaa6bb73d1fc6b3bd8e5b30af3849fdae1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/6065b9784078881ff7b0301004342d210fec77b0",
+                "reference": "6065b9784078881ff7b0301004342d210fec77b0",
                 "shasum": ""
             },
             "require": {
@@ -2935,7 +2935,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-03-13T13:21:16+00:00"
+            "time": "2017-03-21T14:37:54+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
