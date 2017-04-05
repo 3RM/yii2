@@ -10,4 +10,10 @@ use yii\web\Controller;
  */
 class AppController extends Controller{    
     
+	public static function varDebug($var)
+	{
+		var_dump($var);
+	}
+	
+	
 }

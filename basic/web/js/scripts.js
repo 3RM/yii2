@@ -1,2 +1,2 @@
-//alert("hi");
+alert("hi");
 $('.container').append('<p>Show!!!</p>');

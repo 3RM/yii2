@@ -17,9 +17,12 @@ class PostController extends AppController {
 
         $arr = array('Vasya', 'Petya', 'Grisha');
         
-        if(Yii::$app->request->isAjax){
-            debug($_GET);
-        }
+        //if(Yii::$app->request->isAjax){
+        //    debug($_GET);
+        //}
+		
+		self::varDebug('Hello');
+		//$this->varDebug(Yii::$app);
             
         return $this->render('index', compact('arr'));
     }

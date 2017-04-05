@@ -23,7 +23,7 @@ class AppAssetPosts extends AssetBundle {
         'css/style.css',
     ];
     public $js = [
-        //'js/scripts.js'
+        'js/scripts.js'
     ];
     public $jsOptions = [
         'position' => \yii\web\View::POS_END

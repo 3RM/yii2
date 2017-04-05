@@ -2,5 +2,7 @@
 
 <?php
 
-debug($arr);
+//varDebug($arr);
+//\app\controllers\AppController::varDebug(Yii::$app);
+//debug(Yii::$app);
 var_dump($arr);
