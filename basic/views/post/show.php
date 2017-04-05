@@ -8,12 +8,13 @@
 <?php //$this->registerCss('.container{background: #ccc;}') ?>
 
 <?php
+
 $script = <<<JS
      $('#btn').on('click', function(){
         $.ajax({
             url: 'index.php?r=post/index',
             data: {test: '123'},
-            type: 'POST',
+            type: 'post',
             success: function(res){
                 console.log(res);
             },
@@ -24,5 +25,5 @@ $script = <<<JS
     });  
 JS;
 
-$this->registerJs($script);
+$this->registerJs($script, \yii\web\View::POS_LOAD);
 
