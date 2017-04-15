@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use Yii;
+use app\models\TestForm;
 
 /**
  * Description of PostController
@@ -23,24 +24,27 @@ class PostController extends AppController {
     }   
 
     public function actionIndex() {
-
-        $arr = array('Vasya', 'Petya', 'Grisha');
+        
+        $this->view->title = "Index posts";
         
         if(Yii::$app->request->isAjax){
             //debug($_GET);
             //debug($_POST);
             debug(Yii::$app->request->post());
         }
-		
-		self::varDebug('Hello');
+		$model = new TestForm();
 		//$this->varDebug(Yii::$app);
             
-        return $this->render('index', compact('arr'));
+        return $this->render('index', compact('model'));
     }
 
     public function actionShow() {
         
         //$this->layout = 'basic';
+        
+        $this->view->title = "Одна статья!";
+        $this->view->registerMetaTag(['name'=>'keywords','content'=>'ключевые слова']);               
+        $this->view->registerMetaTag(['name'=>'description','content'=>'описанние страницы']);
         
         return $this->render('show');
     }

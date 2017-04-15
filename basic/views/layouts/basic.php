@@ -7,12 +7,12 @@ AppAssetPosts::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-
+<html lang="<?= Yii::$app->language ?>">
 <html>
     <head>
         <meta charset="UTF-8">        
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Document</title>
+        <title><?= $this->title ?></title>
         
         <?php $this->head() ?>
     </head>
@@ -25,6 +25,10 @@ AppAssetPosts::register($this);
                     <li role="presentation"><?= Html::a('Статьи',['post/index'])?></li>
                     <li role="presentation"><?= Html::a('Статья',['post/show'])?></li>
                 </ul>
+                <?php if( isset($this->blocks['block1']) ): ?>
+                    <?php echo $this->blocks['block1']; ?>
+                <?php endif; ?>
+                
                 <?= $content ?>
             </div>
         </div>        
